@@ -1,0 +1,59 @@
+
+
+h2 {
+    margin-left: 1rem;
+}
+
+.content {
+    display: flex;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: none;
+    padding: 1rem;
+  }
+
+  .content-button {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+
+  button {
+    background-color: #11ae7dff;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .content-iframe {
+    margin-left: 2rem;
+  }
+
+  iframe {
+    margin-top: 2.7rem;
+  }
